@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>VCT Viewership Predictor</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="brand">
+      <div class="eyebrow">Valorant Champions Tour</div>
+      <h1>VIEWERSHIP<em>// predictor</em></h1>
+    </div>
+    <div class="tag">Drag two teams into a matchup, pick the event, get a projected concurrent-viewer range.</div>
+  </header>
+
+  <div class="layout">
+    <div class="panel">
+      <div class="panel-head"><span>Roster</span><span id="teamCount"></span></div>
+      <div class="regions" id="regions"></div>
+      <div class="roster-list" id="roster"></div>
+    </div>
+
+    <div class="panel matchup-panel">
+      <div class="matchup">
+        <div id="slotA" class="slot" data-slot="A"><div class="placeholder">drag team A</div></div>
+        <div class="vs-badge">VS</div>
+        <div id="slotB" class="slot" data-slot="B"><div class="placeholder">drag team B</div></div>
+      </div>
+
+      <div class="controls">
+        <div>
+          <label for="event">Event</label>
+          <select id="event"></select>
+        </div>
+        <label class="marquee-toggle"><input type="checkbox" id="marquee"> Grand final / decider</label>
+      </div>
+
+      <div class="result" id="result">
+        <div class="empty">Pick two teams and an event above.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="note">
+    <b>Model:</b> event baseline x average team weight x matchup bonus x marquee multiplier, calibrated from
+    publicly reported Esports Charts aggregates (event/match average &amp; peak concurrent viewers across VCT
+    Champions, Masters, regional leagues, Kickoff and Game Changers). Not a live database pull — treat results as
+    directional. Team badges are generated monograms, not official logos.
+  </div>
+</div>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
