@@ -8,9 +8,9 @@ const teams = [
   {n:"Evil Geniuses",r:"Americas",p:1.0},{n:"FURIA",r:"Americas",p:1.0},{n:"MIBR",r:"Americas",p:1.0},
   {n:"Leviatan",r:"Americas",p:1.0},{n:"KRU Esports",r:"Americas",p:0.9},{n:"ENVY",r:"Americas",p:0.75},
 
-  {n:"Fnatic",r:"EMEA",p:1.5},{n:"Team Vitality",r:"EMEA",p:1.3},{n:"Team Heretics",r:"EMEA",p:1.25},
-  {n:"KOI",r:"EMEA",p:1.2},{n:"Karmine Corp",r:"EMEA",p:1.2},{n:"BBL Esports",r:"EMEA",p:1.15},
-  {n:"Team Liquid",r:"EMEA",p:1.05},{n:"Natus Vincere",r:"EMEA",p:1.0},{n:"FUT Esports",r:"EMEA",p:0.9},
+  {n:"Fnatic",r:"EMEA",p:1.432},{n:"Team Vitality",r:"EMEA",p:1.3},{n:"Team Heretics",r:"EMEA",p:1.25},
+  {n:"KOI",r:"EMEA",p:1.096},{n:"Karmine Corp",r:"EMEA",p:1.2},{n:"BBL Esports",r:"EMEA",p:1.15},
+  {n:"Team Liquid",r:"EMEA",p:1.173},{n:"Natus Vincere",r:"EMEA",p:1.0},{n:"FUT Esports",r:"EMEA",p:1.1},
   {n:"GIANTX",r:"EMEA",p:0.9},{n:"Gentle Mates",r:"EMEA",p:0.8},{n:"PCFIC Esports",r:"EMEA",p:0.72},
   {n:"ULF Esports",r:"EMEA",p:0.7},{n:"Eternal Fire",r:"EMEA",p:0.7},
 
