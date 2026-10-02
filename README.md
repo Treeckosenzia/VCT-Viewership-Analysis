@@ -89,12 +89,7 @@ If you want your own copy live at a URL:
 3. Set **Source** to the `main` branch, root folder.
 4. It'll be live at `https://<username>.github.io/<repo-name>/`.
 
-## A note on the numbers
-
-I want to be upfront about this: the team weights and event baselines are
-my own estimates, calibrated from publicly reported Esports Charts
-statistics, not a live feed from their database. Use the predictions as a
-rough sense of scale, not a precise forecast.
+## Disclaimer: Once again, calculations are not based off of real data, rather just my own estimation and knowledge of teams' gravity in viewership
 
 ## License
 
