@@ -1,27 +1,25 @@
 # VCT Viewership Predictor
 
-I made this because I kept wondering, before every big VALORANT Champions
-Tour matchup, roughly how many people were actually going to tune in — and
-there wasn't a quick way to eyeball that. So I built a small tool for it:
+I have always been curious to see the viewership different teams and Valorant
+itself could reel in. So I built a small tool for it:
 drag two teams into a matchup, pick the event, and it gives you a projected
 average and peak concurrent viewer count.
 
 It's not pulling live numbers from anywhere. It's a weighted estimate I
 calibrated by hand using publicly reported Esports Charts figures — team
 popularity, event-by-event viewership, and marquee-match spikes — so think
-of it as a reasonable ballpark, not a forecast you'd bet money on.
+of it as a reasonable ballpark, not a forecast you'd bet money on. Will be
+hoping to improve this by looking for reliable data sources for better predictions.
 
 All 48 current VCT teams are in there (12 per region: Americas, EMEA,
-Pacific, China), each with a little generated logo badge. They're not the
-real team logos — those are trademarked and I didn't want to ship copies of
-them — so instead each team gets a colored monogram, with the color picked
-from a hue range specific to its region. It's a small thing, but it makes
-the roster easier to scan at a glance.
+Pacific, China). Logos are trademarked, so instead each team gets a colored
+monogram, with the color pickedfrom a hue range specific to its region. It's
+a small thing, but it makesthe roster easier to scan at a glance.
 
 ## Try it
 
 Open `index.html` in a browser, or serve the folder (see "Running locally"
-below). No build step, no dependencies to install.
+below). No build step, no dependencies to install
 
 ## How the prediction actually works
 
