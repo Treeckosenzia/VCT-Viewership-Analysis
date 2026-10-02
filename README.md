@@ -48,26 +48,6 @@ All of this lives in [`js/data.js`](js/data.js) — edit the `teams` and
 └── README.md
 ```
 
-## Running locally
-
-No build step — it's plain HTML/CSS/JS. Either:
-
-```bash
-# open directly
-open index.html          # macOS
-start index.html          # Windows
-
-# or serve it (recommended, avoids any local-file quirks)
-python3 -m http.server 8000
-# then visit http://localhost:8000
-```
-
-## Deploying with GitHub Pages
-
-1. Push this repo to GitHub.
-2. Go to **Settings → Pages**.
-3. Set **Source** to the `main` branch, root folder.
-4. Your app will be live at `https://<username>.github.io/<repo-name>/`.
 
 ## Data disclaimer
 
